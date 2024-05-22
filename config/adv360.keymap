@@ -34,9 +34,14 @@
     combos {
         compatible = "zmk,combos";
 
+        Spotlight {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <69 70>;
+        };
+
         Delete {
             bindings = <&kp DELETE>;
-            key-positions = <69 70>;
+            key-positions = <65 70>;
         };
     };
 
