@@ -34,13 +34,8 @@
     combos {
         compatible = "zmk,combos";
 
-        Spotlight {
-            bindings = <&kp LG(SPACE)>;
-            key-positions = <69 70>;
-        };
-
-        Delete {
-            bindings = <&kp DELETE>;
+        Nordic {
+            bindings = <&mo 4>;
             key-positions = <65 70>;
         };
     };
@@ -85,6 +80,16 @@
 &none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
+            >;
+        };
+
+        layer_nordic {
+            bindings = <
+&trans  &trans     &trans  &trans       &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans     &trans  &kp LA(SQT)  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &kp LA(O)  &trans  &trans
+&trans  &kp LA(A)  &trans  &trans       &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans     &trans  &trans       &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans     &trans  &trans       &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans     &trans  &trans
             >;
         };
     };
