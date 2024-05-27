@@ -99,7 +99,7 @@
         layer_navigation {
             bindings = <
 &trans  &trans     &trans         &trans     &trans     &trans     &trans                                      &trans  &trans     &trans     &trans     &trans         &trans     &trans
-&trans  &trans     &trans         &trans     &trans     &trans     &trans                                      &trans  &trans     &trans     &trans     &trans         &trans     &trans
+&trans  &kp LG(Q)  &kp LG(W)      &trans     &kp LG(R)  &kp LG(T)  &trans                                      &trans  &trans     &trans     &trans     &trans         &trans     &trans
 &trans  &trans     &trans         &trans     &trans     &trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans     &kp LEFT   &kp UP     &kp DOWN       &kp RIGHT  &trans
 &trans  &kp LG(Z)  &kp LS(LG(Z))  &kp LG(C)  &kp LG(V)  &kp LG(X)                  &trans      &trans                  &kp LG(X)  &kp LG(V)  &kp LG(C)  &kp LG(LS(Z))  &kp LG(Z)  &trans
 &trans  &trans     &trans         &trans     &trans                &trans  &trans  &trans      &trans  &trans  &trans             &trans     &trans     &trans         &trans     &trans
