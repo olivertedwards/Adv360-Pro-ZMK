@@ -98,11 +98,11 @@
 
         layer_navigation {
             bindings = <
-&trans  &trans    &trans    &trans        &trans         &trans     &trans                                      &trans  &trans     &trans         &trans     &trans    &trans     &trans
-&trans  &trans    &trans    &kp LG(Z)     &kp LG(LS(Z))  &trans     &trans                                      &trans  &trans     &kp LG(LS(Z))  &kp LG(Z)  &trans    &trans     &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT      &kp LG(X)  &trans  &trans  &trans      &trans  &trans  &trans  &kp LG(X)  &kp LEFT       &kp UP     &kp DOWN  &kp RIGHT  &trans
-&trans  &trans    &trans    &kp LG(C)     &kp LG(V)      &trans                     &trans      &trans                  &trans     &kp LG(V)      &kp LG(C)  &trans    &trans     &trans
-&trans  &trans    &trans    &trans        &trans                    &trans  &trans  &trans      &trans  &trans  &trans             &trans         &trans     &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans     &trans         &trans     &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans     &kp LG(LS(Z))  &kp LG(Z)  &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LG(X)  &kp LEFT       &kp UP     &kp DOWN  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans     &kp LG(V)      &kp LG(C)  &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans             &trans         &trans     &trans    &trans     &trans
             >;
         };
     };
