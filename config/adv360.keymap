@@ -94,11 +94,11 @@
 
         navigation {
             bindings = <
-&trans  &trans         &trans         &trans         &trans         &trans             &trans                                          &trans  &trans         &trans     &trans     &trans     &trans     &trans
-&trans  &trans         &trans         &trans         &trans         &trans             &trans                                          &trans  &trans         &trans     &trans     &trans     &trans     &trans
-&trans  &kp LA(LS(H))  &kp LA(LS(J))  &kp LA(LS(K))  &kp LA(LS(L))  &kp LA(LS(COMMA))  &trans  &trans      &trans      &trans  &trans  &trans  &kp LA(COMMA)  &kp LA(H)  &kp LA(J)  &kp LA(K)  &kp LA(L)  &trans
-&trans  &trans         &trans         &trans         &trans         &trans                                 &trans      &trans                  &trans         &trans     &trans     &trans     &trans     &trans
-&trans  &trans         &trans         &trans         &trans                            &trans  &kp DELETE  &trans      &trans  &trans  &trans                 &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                      &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &kp DELETE  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "Nav";
