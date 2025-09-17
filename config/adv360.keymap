@@ -94,11 +94,11 @@
 
         navigation {
             bindings = <
-&trans  &trans                    &trans                    &trans                    &trans                    &trans  &trans                                          &trans  &trans  &trans            &trans            &trans            &trans            &trans
-&trans  &trans                    &trans                    &trans                    &trans                    &trans  &trans                                          &trans  &trans  &trans            &trans            &trans            &trans            &trans
-&trans  &kp LA(LS(H))             &kp LA(LS(J))             &kp LS(LA(K))             &kp LS(LA(L))             &trans  &trans  &trans      &trans      &trans  &trans  &trans  &trans  &kp LA(H)         &kp LA(J)         &kp LA(K)         &kp LA(L)         &trans
-&trans  &kp LS(LA(LC(NUMBER_1)))  &kp LS(LA(LC(NUMBER_2)))  &kp LS(LA(LC(NUMBER_3)))  &kp LS(LA(LC(NUMBER_4)))  &trans                      &trans      &trans                  &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &trans
-&trans  &trans                    &trans                    &trans                    &trans                            &trans  &kp DELETE  &trans      &trans  &trans  &trans          &trans            &trans            &trans            &trans            &trans
+&trans           &trans                &trans                &trans                &trans                &trans          &trans                                          &trans  &trans             &trans         &trans         &trans         &trans         &trans
+&trans           &trans                &trans                &trans                &trans                &trans          &trans                                          &trans  &trans             &trans         &trans         &trans         &trans         &trans
+&kp LC(TAB)      &kp LC(NUMBER_1)      &kp LC(NUMBER_2)      &kp LC(NUMBER_3)      &kp LC(NUMBER_4)      &kp LC(N5)      &trans  &trans      &trans      &trans  &trans  &trans  &kp LC(COMMA)      &kp LC(H)      &kp LC(J)      &kp LC(K)      &kp LC(L)      &trans
+&kp LS(LC(TAB))  &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &kp LS(LC(N5))                      &trans      &trans                  &kp LS(LC(COMMA))  &kp LC(LS(H))  &kp LS(LC(J))  &kp LS(LC(K))  &kp LS(LC(L))  &trans
+&trans           &trans                &trans                &kp LC(MINUS)         &kp LC(EQUAL)                         &trans  &kp DELETE  &trans      &trans  &trans  &trans                     &trans         &trans         &trans         &trans         &trans
             >;
 
             label = "Nav";
